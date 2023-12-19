@@ -475,6 +475,44 @@ footer a {
 
 /* medium */
 @media screen and (min-width: 700px) {
+  html {
+    position: relative;
+  }
+  .bottoneFisso {
+    border-radius: 7px;
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.5
+    ); /* 0.9 indica un'opacità del 90% */
+    border: white solid 3px;
+    width: 66px;
+    height: 51px;
+  }
+
+  #bottoneUp {
+    position: absolute;
+    bottom: 30px;
+    right: 9px;
+  }
+
+  #bottoneCalendario {
+    position: absolute;
+    top: 106px;
+    right: 9px;
+  }
+
+  #bottonePiu {
+    position: absolute;
+    top: 46px;
+    right: 9px;
+  }
+
+  #titolo {
+    position: relative;
+  }
+
   #titolo {
     position: relative;
   }
